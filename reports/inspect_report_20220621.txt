@@ -1,0 +1,754 @@
+------------------------------------------------------------
+Start inspecting file: Data/nmi_info.csv at 2022062111055S
+Total row count: 12
+Top 5 rows:
+      Nmi State  Interval
+0  NMIM1   QLD      30.0
+1  NMIS2   NSW      30.0
+2  NMIS3   NSW      30.0
+3  NMIA2   VIC      15.0
+4  NMIA1   VIC      15.0
+Columns with data types:
+{'Nmi': dtype('O'), 'State': dtype('O'), 'Interval': dtype('float64')}
+Check null values for each column:
+Nmi         0
+State       0
+Interval    0
+dtype: int64
+Summary :
+        Interval
+count  12.000000
+mean   27.500000
+std     5.838742
+min    15.000000
+25%    30.000000
+50%    30.000000
+75%    30.000000
+max    30.000000
+End of inspecting file: Data/nmi_info.csv
+------------------------------------------------------------
+------------------------------------------------------------
+Start inspecting file: Data/ConsumptionData/NMIA1.csv at 2022062111055S
+Total row count: 35040
+Top 5 rows:
+               AESTTime  Quantity Unit
+0  2017-10-01 00:00:00      7.99  kWh
+1  2017-10-01 00:15:00      7.00  kWh
+2  2017-10-01 00:30:00      8.20  kWh
+3  2017-10-01 00:45:00      8.01  kWh
+4  2017-10-01 01:00:00      9.01  kWh
+Columns with data types:
+{'AESTTime': dtype('O'), 'Quantity': dtype('float64'), 'Unit': dtype('O')}
+Check null values for each column:
+AESTTime    0
+Quantity    0
+Unit        0
+dtype: int64
+Summary :
+           Quantity
+count  35040.000000
+mean       9.104567
+std       10.313997
+min        0.002550
+25%        0.016570
+50%        3.237565
+75%       18.800000
+max       35.090000
+End of inspecting file: Data/ConsumptionData/NMIA1.csv
+------------------------------------------------------------
+------------------------------------------------------------
+Start inspecting file: Data/ConsumptionData/NMIA2.csv at 2022062111055S
+Total row count: 35040
+Top 5 rows:
+               AESTTime  Quantity Unit
+0  2017-10-01 00:00:00      4.52  kWh
+1  2017-10-01 00:15:00      4.28  kWh
+2  2017-10-01 00:30:00      4.37  kWh
+3  2017-10-01 00:45:00      4.65  kWh
+4  2017-10-01 01:00:00      5.10  kWh
+Columns with data types:
+{'AESTTime': dtype('O'), 'Quantity': dtype('float64'), 'Unit': dtype('O')}
+Check null values for each column:
+AESTTime    0
+Quantity    0
+Unit        0
+dtype: int64
+Summary :
+           Quantity
+count  35040.000000
+mean      10.162412
+std        4.318333
+min        2.130000
+25%        5.440000
+50%       12.020000
+75%       13.560000
+max       20.500000
+End of inspecting file: Data/ConsumptionData/NMIA2.csv
+------------------------------------------------------------
+------------------------------------------------------------
+Start inspecting file: Data/ConsumptionData/NMIA3.csv at 2022062111055S
+Total row count: 17520
+Top 5 rows:
+               AESTTime  Quantity Unit
+0  2017-10-01 00:00:00      7.23  kWh
+1  2017-10-01 00:30:00      7.15  kWh
+2  2017-10-01 01:00:00      7.31  kWh
+3  2017-10-01 01:30:00      6.94  kWh
+4  2017-10-01 02:00:00      7.00  kWh
+Columns with data types:
+{'AESTTime': dtype('O'), 'Quantity': dtype('float64'), 'Unit': dtype('O')}
+Check null values for each column:
+AESTTime       0
+Quantity    1416
+Unit           0
+dtype: int64
+Summary :
+           Quantity
+count  16104.000000
+mean      20.244057
+std        9.144494
+min        5.360000
+25%        8.970000
+50%       22.905000
+75%       27.850000
+max       46.780000
+End of inspecting file: Data/ConsumptionData/NMIA3.csv
+------------------------------------------------------------
+------------------------------------------------------------
+Start inspecting file: Data/ConsumptionData/NMIG1.csv at 2022062111055S
+Total row count: 17520
+Top 5 rows:
+               AESTTime  Quantity Unit
+0  2017-10-01 00:00:00      80.6  kWh
+1  2017-10-01 00:30:00      79.0  kWh
+2  2017-10-01 01:00:00      85.6  kWh
+3  2017-10-01 01:30:00      85.5  kWh
+4  2017-10-01 02:00:00      76.6  kWh
+Columns with data types:
+{'AESTTime': dtype('O'), 'Quantity': dtype('float64'), 'Unit': dtype('O')}
+Check null values for each column:
+AESTTime    0
+Quantity    0
+Unit        0
+dtype: int64
+Summary :
+           Quantity
+count  17520.000000
+mean     214.616821
+std      135.841111
+min       17.800000
+25%      109.900000
+50%      154.200000
+75%      307.100000
+max      751.700000
+End of inspecting file: Data/ConsumptionData/NMIG1.csv
+------------------------------------------------------------
+------------------------------------------------------------
+Start inspecting file: Data/ConsumptionData/NMIG2.csv at 2022062111055S
+Total row count: 17520
+Top 5 rows:
+               AESTTime  Quantity Unit
+0  01/10/2017 00:00:00    117.36  kWh
+1  01/10/2017 00:30:00    114.88  kWh
+2  01/10/2017 01:00:00    108.15  kWh
+3  01/10/2017 01:30:00    107.75  kWh
+4  01/10/2017 02:00:00    111.63  kWh
+Columns with data types:
+{'AESTTime': dtype('O'), 'Quantity': dtype('float64'), 'Unit': dtype('O')}
+Check null values for each column:
+AESTTime    0
+Quantity    0
+Unit        0
+dtype: int64
+Summary :
+           Quantity
+count  17520.000000
+mean     240.482383
+std      139.999167
+min       34.600000
+25%      116.937500
+50%      161.440000
+75%      366.512500
+max      607.120000
+End of inspecting file: Data/ConsumptionData/NMIG2.csv
+------------------------------------------------------------
+------------------------------------------------------------
+Start inspecting file: Data/ConsumptionData/NMIK4.csv at 2022062111055S
+Total row count: 17520
+Top 5 rows:
+               AESTTime  Quantity Unit
+0  2017-10-01 00:00:00       2.7  kWh
+1  2017-10-01 00:30:00       2.5  kWh
+2  2017-10-01 01:00:00       2.6  kWh
+3  2017-10-01 01:30:00       2.5  kWh
+4  2017-10-01 02:00:00       2.6  kWh
+Columns with data types:
+{'AESTTime': dtype('O'), 'Quantity': dtype('float64'), 'Unit': dtype('O')}
+Check null values for each column:
+AESTTime    0
+Quantity    0
+Unit        0
+dtype: int64
+Summary :
+           Quantity
+count  17520.000000
+mean     376.813019
+std      291.642395
+min        1.400000
+25%        8.775000
+50%      501.600000
+75%      632.700000
+max      853.500000
+End of inspecting file: Data/ConsumptionData/NMIK4.csv
+------------------------------------------------------------
+------------------------------------------------------------
+Start inspecting file: Data/ConsumptionData/NMIM1.csv at 2022062111055S
+Total row count: 17520
+Top 5 rows:
+               AESTTime  Quantity Unit
+0  2017-10-01 00:00:00    12.416  kWh
+1  2017-10-01 00:30:00    12.192  kWh
+2  2017-10-01 01:00:00    12.192  kWh
+3  2017-10-01 01:30:00    11.712  kWh
+4  2017-10-01 02:00:00    11.872  kWh
+Columns with data types:
+{'AESTTime': dtype('O'), 'Quantity': dtype('float64'), 'Unit': dtype('O')}
+Check null values for each column:
+AESTTime    0
+Quantity    0
+Unit        0
+dtype: int64
+Summary :
+           Quantity
+count  17520.000000
+mean     177.079634
+std       44.268355
+min        0.000000
+25%      165.632000
+50%      189.824000
+75%      203.680000
+max      268.703000
+End of inspecting file: Data/ConsumptionData/NMIM1.csv
+------------------------------------------------------------
+------------------------------------------------------------
+Start inspecting file: Data/ConsumptionData/NMIR1.csv at 2022062111055S
+Total row count: 17520
+Top 5 rows:
+               AESTTime  Quantity Unit
+0  2017-10-01 00:00:00     33.78  kWh
+1  2017-10-01 00:30:00     34.83  kWh
+2  2017-10-01 01:00:00     34.92  kWh
+3  2017-10-01 01:30:00     34.35  kWh
+4  2017-10-01 02:00:00     33.03  kWh
+Columns with data types:
+{'AESTTime': dtype('O'), 'Quantity': dtype('float64'), 'Unit': dtype('O')}
+Check null values for each column:
+AESTTime    0
+Quantity    0
+Unit        0
+dtype: int64
+Summary :
+           Quantity
+count  17520.000000
+mean      47.561036
+std       13.582327
+min       20.820000
+25%       35.820000
+50%       46.560000
+75%       57.840000
+max      108.480000
+End of inspecting file: Data/ConsumptionData/NMIR1.csv
+------------------------------------------------------------
+------------------------------------------------------------
+Start inspecting file: Data/ConsumptionData/NMIR2.csv at 2022062111055S
+Total row count: 17520
+Top 5 rows:
+               AESTTime  Quantity Unit
+0  2017-10-01 00:00:00    13.972  kWh
+1  2017-10-01 00:30:00    13.988  kWh
+2  2017-10-01 01:00:00    13.692  kWh
+3  2017-10-01 01:30:00    14.288  kWh
+4  2017-10-01 02:00:00    16.032  kWh
+Columns with data types:
+{'AESTTime': dtype('O'), 'Quantity': dtype('float64'), 'Unit': dtype('O')}
+Check null values for each column:
+AESTTime    4088
+Quantity       0
+Unit           0
+dtype: int64
+Summary :
+           Quantity
+count  17520.000000
+mean      21.127695
+std        8.591903
+min        0.000000
+25%       14.660000
+50%       19.112000
+75%       25.592000
+max       58.508000
+End of inspecting file: Data/ConsumptionData/NMIR2.csv
+------------------------------------------------------------
+------------------------------------------------------------
+Start inspecting file: Data/ConsumptionData/NMIS1.csv at 2022062111055S
+Total row count: 17520
+Top 5 rows:
+               AESTTime  Quantity Unit
+0  2017-10-01 00:00:00      10.9  kWh
+1  2017-10-01 00:30:00      12.3  kWh
+2  2017-10-01 01:00:00      11.4  kWh
+3  2017-10-01 01:30:00      10.4  kWh
+4  2017-10-01 02:00:00      10.9  kWh
+Columns with data types:
+{'AESTTime': dtype('O'), 'Quantity': dtype('float64'), 'Unit': dtype('O')}
+Check null values for each column:
+AESTTime    0
+Quantity    0
+Unit        0
+dtype: int64
+Summary :
+           Quantity
+count  17520.000000
+mean      24.666427
+std       21.078325
+min        0.000000
+25%       12.600000
+50%       15.300000
+75%       25.500000
+max      144.500000
+End of inspecting file: Data/ConsumptionData/NMIS1.csv
+------------------------------------------------------------
+------------------------------------------------------------
+Start inspecting file: Data/ConsumptionData/NMIS2.csv at 2022062111055S
+Total row count: 17520
+Top 5 rows:
+               AESTTime  Quantity Unit
+0  2017-10-01 00:00:00     6.480  kWh
+1  2017-10-01 00:30:00     5.904  kWh
+2  2017-10-01 01:00:00     5.828  kWh
+3  2017-10-01 01:30:00     5.980  kWh
+4  2017-10-01 02:00:00     5.860  kWh
+Columns with data types:
+{'AESTTime': dtype('O'), 'Quantity': dtype('float64'), 'Unit': dtype('O')}
+Check null values for each column:
+AESTTime    0
+Quantity    0
+Unit        0
+dtype: int64
+Summary :
+           Quantity
+count  17520.000000
+mean      12.217600
+std       13.263106
+min        0.000000
+25%        5.172000
+50%        5.976000
+75%       12.690000
+max       93.068000
+End of inspecting file: Data/ConsumptionData/NMIS2.csv
+------------------------------------------------------------
+------------------------------------------------------------
+Start inspecting file: Data/ConsumptionData/NMIS3.csv at 2022062111055S
+Total row count: 17520
+Top 5 rows:
+               AESTTime  Quantity Unit
+0  2017-10-01 00:00:00     15.20  kWh
+1  2017-10-01 00:30:00     14.40  kWh
+2  2017-10-01 01:00:00     14.72  kWh
+3  2017-10-01 01:30:00     14.40  kWh
+4  2017-10-01 02:00:00     14.88  kWh
+Columns with data types:
+{'AESTTime': dtype('O'), 'Quantity': dtype('float64'), 'Unit': dtype('O')}
+Check null values for each column:
+AESTTime       0
+Quantity    1416
+Unit           0
+dtype: int64
+Summary :
+           Quantity
+count  16104.000000
+mean      26.576518
+std       19.827893
+min        6.240000
+25%       14.400000
+50%       16.960000
+75%       31.840000
+max      126.720000
+End of inspecting file: Data/ConsumptionData/NMIS3.csv
+------------------------------------------------------------
+------------------------------------------------------------
+Start inspecting file: Data/nmi_info.csv at 2022062111075S
+Total row count: 12
+Top 5 rows:
+      Nmi State  Interval
+0  NMIM1   QLD      30.0
+1  NMIS2   NSW      30.0
+2  NMIS3   NSW      30.0
+3  NMIA2   VIC      15.0
+4  NMIA1   VIC      15.0
+Columns with data types:
+{'Nmi': dtype('O'), 'State': dtype('O'), 'Interval': dtype('float64')}
+Check null values for each column:
+Nmi         0
+State       0
+Interval    0
+dtype: int64
+Summary :
+        Interval
+count  12.000000
+mean   27.500000
+std     5.838742
+min    15.000000
+25%    30.000000
+50%    30.000000
+75%    30.000000
+max    30.000000
+End of inspecting file: Data/nmi_info.csv
+------------------------------------------------------------
+------------------------------------------------------------
+Start inspecting file: Data/ConsumptionData/NMIA1.csv at 2022062111075S
+Total row count: 35040
+Top 5 rows:
+               AESTTime  Quantity Unit
+0  2017-10-01 00:00:00      7.99  kWh
+1  2017-10-01 00:15:00      7.00  kWh
+2  2017-10-01 00:30:00      8.20  kWh
+3  2017-10-01 00:45:00      8.01  kWh
+4  2017-10-01 01:00:00      9.01  kWh
+Columns with data types:
+{'AESTTime': dtype('O'), 'Quantity': dtype('float64'), 'Unit': dtype('O')}
+Check null values for each column:
+AESTTime    0
+Quantity    0
+Unit        0
+dtype: int64
+Summary :
+           Quantity
+count  35040.000000
+mean       9.104567
+std       10.313997
+min        0.002550
+25%        0.016570
+50%        3.237565
+75%       18.800000
+max       35.090000
+End of inspecting file: Data/ConsumptionData/NMIA1.csv
+------------------------------------------------------------
+------------------------------------------------------------
+Start inspecting file: Data/ConsumptionData/NMIA2.csv at 2022062111075S
+Total row count: 35040
+Top 5 rows:
+               AESTTime  Quantity Unit
+0  2017-10-01 00:00:00      4.52  kWh
+1  2017-10-01 00:15:00      4.28  kWh
+2  2017-10-01 00:30:00      4.37  kWh
+3  2017-10-01 00:45:00      4.65  kWh
+4  2017-10-01 01:00:00      5.10  kWh
+Columns with data types:
+{'AESTTime': dtype('O'), 'Quantity': dtype('float64'), 'Unit': dtype('O')}
+Check null values for each column:
+AESTTime    0
+Quantity    0
+Unit        0
+dtype: int64
+Summary :
+           Quantity
+count  35040.000000
+mean      10.162412
+std        4.318333
+min        2.130000
+25%        5.440000
+50%       12.020000
+75%       13.560000
+max       20.500000
+End of inspecting file: Data/ConsumptionData/NMIA2.csv
+------------------------------------------------------------
+------------------------------------------------------------
+Start inspecting file: Data/ConsumptionData/NMIA3.csv at 2022062111075S
+Total row count: 17520
+Top 5 rows:
+               AESTTime  Quantity Unit
+0  2017-10-01 00:00:00      7.23  kWh
+1  2017-10-01 00:30:00      7.15  kWh
+2  2017-10-01 01:00:00      7.31  kWh
+3  2017-10-01 01:30:00      6.94  kWh
+4  2017-10-01 02:00:00      7.00  kWh
+Columns with data types:
+{'AESTTime': dtype('O'), 'Quantity': dtype('float64'), 'Unit': dtype('O')}
+Check null values for each column:
+AESTTime       0
+Quantity    1416
+Unit           0
+dtype: int64
+Summary :
+           Quantity
+count  16104.000000
+mean      20.244057
+std        9.144494
+min        5.360000
+25%        8.970000
+50%       22.905000
+75%       27.850000
+max       46.780000
+End of inspecting file: Data/ConsumptionData/NMIA3.csv
+------------------------------------------------------------
+------------------------------------------------------------
+Start inspecting file: Data/ConsumptionData/NMIG1.csv at 2022062111075S
+Total row count: 17520
+Top 5 rows:
+               AESTTime  Quantity Unit
+0  2017-10-01 00:00:00      80.6  kWh
+1  2017-10-01 00:30:00      79.0  kWh
+2  2017-10-01 01:00:00      85.6  kWh
+3  2017-10-01 01:30:00      85.5  kWh
+4  2017-10-01 02:00:00      76.6  kWh
+Columns with data types:
+{'AESTTime': dtype('O'), 'Quantity': dtype('float64'), 'Unit': dtype('O')}
+Check null values for each column:
+AESTTime    0
+Quantity    0
+Unit        0
+dtype: int64
+Summary :
+           Quantity
+count  17520.000000
+mean     214.616821
+std      135.841111
+min       17.800000
+25%      109.900000
+50%      154.200000
+75%      307.100000
+max      751.700000
+End of inspecting file: Data/ConsumptionData/NMIG1.csv
+------------------------------------------------------------
+------------------------------------------------------------
+Start inspecting file: Data/ConsumptionData/NMIG2.csv at 2022062111075S
+Total row count: 17520
+Top 5 rows:
+               AESTTime  Quantity Unit
+0  01/10/2017 00:00:00    117.36  kWh
+1  01/10/2017 00:30:00    114.88  kWh
+2  01/10/2017 01:00:00    108.15  kWh
+3  01/10/2017 01:30:00    107.75  kWh
+4  01/10/2017 02:00:00    111.63  kWh
+Columns with data types:
+{'AESTTime': dtype('O'), 'Quantity': dtype('float64'), 'Unit': dtype('O')}
+Check null values for each column:
+AESTTime    0
+Quantity    0
+Unit        0
+dtype: int64
+Summary :
+           Quantity
+count  17520.000000
+mean     240.482383
+std      139.999167
+min       34.600000
+25%      116.937500
+50%      161.440000
+75%      366.512500
+max      607.120000
+End of inspecting file: Data/ConsumptionData/NMIG2.csv
+------------------------------------------------------------
+------------------------------------------------------------
+Start inspecting file: Data/ConsumptionData/NMIK4.csv at 2022062111075S
+Total row count: 17520
+Top 5 rows:
+               AESTTime  Quantity Unit
+0  2017-10-01 00:00:00       2.7  kWh
+1  2017-10-01 00:30:00       2.5  kWh
+2  2017-10-01 01:00:00       2.6  kWh
+3  2017-10-01 01:30:00       2.5  kWh
+4  2017-10-01 02:00:00       2.6  kWh
+Columns with data types:
+{'AESTTime': dtype('O'), 'Quantity': dtype('float64'), 'Unit': dtype('O')}
+Check null values for each column:
+AESTTime    0
+Quantity    0
+Unit        0
+dtype: int64
+Summary :
+           Quantity
+count  17520.000000
+mean     376.813019
+std      291.642395
+min        1.400000
+25%        8.775000
+50%      501.600000
+75%      632.700000
+max      853.500000
+End of inspecting file: Data/ConsumptionData/NMIK4.csv
+------------------------------------------------------------
+------------------------------------------------------------
+Start inspecting file: Data/ConsumptionData/NMIM1.csv at 2022062111075S
+Total row count: 17520
+Top 5 rows:
+               AESTTime  Quantity Unit
+0  2017-10-01 00:00:00    12.416  kWh
+1  2017-10-01 00:30:00    12.192  kWh
+2  2017-10-01 01:00:00    12.192  kWh
+3  2017-10-01 01:30:00    11.712  kWh
+4  2017-10-01 02:00:00    11.872  kWh
+Columns with data types:
+{'AESTTime': dtype('O'), 'Quantity': dtype('float64'), 'Unit': dtype('O')}
+Check null values for each column:
+AESTTime    0
+Quantity    0
+Unit        0
+dtype: int64
+Summary :
+           Quantity
+count  17520.000000
+mean     177.079634
+std       44.268355
+min        0.000000
+25%      165.632000
+50%      189.824000
+75%      203.680000
+max      268.703000
+End of inspecting file: Data/ConsumptionData/NMIM1.csv
+------------------------------------------------------------
+------------------------------------------------------------
+Start inspecting file: Data/ConsumptionData/NMIR1.csv at 2022062111075S
+Total row count: 17520
+Top 5 rows:
+               AESTTime  Quantity Unit
+0  2017-10-01 00:00:00     33.78  kWh
+1  2017-10-01 00:30:00     34.83  kWh
+2  2017-10-01 01:00:00     34.92  kWh
+3  2017-10-01 01:30:00     34.35  kWh
+4  2017-10-01 02:00:00     33.03  kWh
+Columns with data types:
+{'AESTTime': dtype('O'), 'Quantity': dtype('float64'), 'Unit': dtype('O')}
+Check null values for each column:
+AESTTime    0
+Quantity    0
+Unit        0
+dtype: int64
+Summary :
+           Quantity
+count  17520.000000
+mean      47.561036
+std       13.582327
+min       20.820000
+25%       35.820000
+50%       46.560000
+75%       57.840000
+max      108.480000
+End of inspecting file: Data/ConsumptionData/NMIR1.csv
+------------------------------------------------------------
+------------------------------------------------------------
+Start inspecting file: Data/ConsumptionData/NMIR2.csv at 2022062111075S
+Total row count: 17520
+Top 5 rows:
+               AESTTime  Quantity Unit
+0  2017-10-01 00:00:00    13.972  kWh
+1  2017-10-01 00:30:00    13.988  kWh
+2  2017-10-01 01:00:00    13.692  kWh
+3  2017-10-01 01:30:00    14.288  kWh
+4  2017-10-01 02:00:00    16.032  kWh
+Columns with data types:
+{'AESTTime': dtype('O'), 'Quantity': dtype('float64'), 'Unit': dtype('O')}
+Check null values for each column:
+AESTTime    4088
+Quantity       0
+Unit           0
+dtype: int64
+Summary :
+           Quantity
+count  17520.000000
+mean      21.127695
+std        8.591903
+min        0.000000
+25%       14.660000
+50%       19.112000
+75%       25.592000
+max       58.508000
+End of inspecting file: Data/ConsumptionData/NMIR2.csv
+------------------------------------------------------------
+------------------------------------------------------------
+Start inspecting file: Data/ConsumptionData/NMIS1.csv at 2022062111075S
+Total row count: 17520
+Top 5 rows:
+               AESTTime  Quantity Unit
+0  2017-10-01 00:00:00      10.9  kWh
+1  2017-10-01 00:30:00      12.3  kWh
+2  2017-10-01 01:00:00      11.4  kWh
+3  2017-10-01 01:30:00      10.4  kWh
+4  2017-10-01 02:00:00      10.9  kWh
+Columns with data types:
+{'AESTTime': dtype('O'), 'Quantity': dtype('float64'), 'Unit': dtype('O')}
+Check null values for each column:
+AESTTime    0
+Quantity    0
+Unit        0
+dtype: int64
+Summary :
+           Quantity
+count  17520.000000
+mean      24.666427
+std       21.078325
+min        0.000000
+25%       12.600000
+50%       15.300000
+75%       25.500000
+max      144.500000
+End of inspecting file: Data/ConsumptionData/NMIS1.csv
+------------------------------------------------------------
+------------------------------------------------------------
+Start inspecting file: Data/ConsumptionData/NMIS2.csv at 2022062111075S
+Total row count: 17520
+Top 5 rows:
+               AESTTime  Quantity Unit
+0  2017-10-01 00:00:00     6.480  kWh
+1  2017-10-01 00:30:00     5.904  kWh
+2  2017-10-01 01:00:00     5.828  kWh
+3  2017-10-01 01:30:00     5.980  kWh
+4  2017-10-01 02:00:00     5.860  kWh
+Columns with data types:
+{'AESTTime': dtype('O'), 'Quantity': dtype('float64'), 'Unit': dtype('O')}
+Check null values for each column:
+AESTTime    0
+Quantity    0
+Unit        0
+dtype: int64
+Summary :
+           Quantity
+count  17520.000000
+mean      12.217600
+std       13.263106
+min        0.000000
+25%        5.172000
+50%        5.976000
+75%       12.690000
+max       93.068000
+End of inspecting file: Data/ConsumptionData/NMIS2.csv
+------------------------------------------------------------
+------------------------------------------------------------
+Start inspecting file: Data/ConsumptionData/NMIS3.csv at 2022062111075S
+Total row count: 17520
+Top 5 rows:
+               AESTTime  Quantity Unit
+0  2017-10-01 00:00:00     15.20  kWh
+1  2017-10-01 00:30:00     14.40  kWh
+2  2017-10-01 01:00:00     14.72  kWh
+3  2017-10-01 01:30:00     14.40  kWh
+4  2017-10-01 02:00:00     14.88  kWh
+Columns with data types:
+{'AESTTime': dtype('O'), 'Quantity': dtype('float64'), 'Unit': dtype('O')}
+Check null values for each column:
+AESTTime       0
+Quantity    1416
+Unit           0
+dtype: int64
+Summary :
+           Quantity
+count  16104.000000
+mean      26.576518
+std       19.827893
+min        6.240000
+25%       14.400000
+50%       16.960000
+75%       31.840000
+max      126.720000
+End of inspecting file: Data/ConsumptionData/NMIS3.csv
+------------------------------------------------------------
