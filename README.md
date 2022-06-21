@@ -1,6 +1,6 @@
 # shell_energy
 
-This project is done by using GCP (Google Cloud Platform).
+This project is done using GCP (Google Cloud Platform).
 ### [Process Flow](https://miro.com/app/board/uXjVOr7xm6I=/?share_link_id=874788083498)
 
 ### Storage
